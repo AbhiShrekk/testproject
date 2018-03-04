@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.abhisheknimbhorkar.brightboard.Main2Activity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue"
+        android:layout_marginTop="150dp"
+        android:drawableLeft="@drawable/ic_action_announc"
+        android:text="CR announcements"/>
+
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button6"
+        android:layout_below="@+id/button4"
+        android:background="@color/colorYellow"
+        android:layout_marginTop="38dp"
+        android:text="Upcoming Events"
+        android:drawableLeft="@drawable/ic_action_events"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button8"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:background="@color/green"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="45dp"
+        android:text="Study Notes" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/orange"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:drawableLeft="@drawable/ic_action_committee"
+        android:text="College Committees" />
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context="com.example.abhisheknimbhorkar.brightboard.Main6Activity">
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/lightgreen"
+        android:textSize="25dp"
+        android:text="1st year" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/lightgreen"
+        android:textSize="25dp"
+        android:layout_alignStart="@+id/button19"
+        android:layout_below="@+id/button19"
+        android:layout_marginTop="50dp"
+        android:text="2nd year" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/lightgreen"
+        android:textSize="25dp"
+        android:layout_alignEnd="@+id/button20"
+        android:layout_below="@+id/button20"
+        android:layout_marginTop="50dp"
+        android:text="3rd year" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:background="@color/lightgreen"
+        android:layout_alignEnd="@+id/button21"
+        android:layout_below="@+id/button21"
+        android:layout_marginTop="50dp"
+        android:text="4th year" />
+</RelativeLayout>

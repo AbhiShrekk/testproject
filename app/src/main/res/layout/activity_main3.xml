@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    tools:context="com.example.abhisheknimbhorkar.brightboard.Main3Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/darkgreen1"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:drawableRight="@drawable/ic_action_name"
+        android:layout_marginTop="67dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="Study Notes" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:background="@color/darkgreen2"
+        android:layout_marginTop="105dp"
+        android:textSize="30dp"
+        android:textColor="@color/darkgreen1"
+        android:text="MBA Tech" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:textSize="30dp"
+        android:textColor="@color/darkgreen1"
+        android:background="@color/darkgreen2"
+        android:layout_marginTop="74dp"
+        android:text="Btech" />
+</RelativeLayout>

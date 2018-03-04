@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellowishgreen"
+    tools:context="com.example.abhisheknimbhorkar.brightboard.Main5Activity">
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/textView2"
+        android:background="@color/leafgreen"
+        android:layout_below="@+id/textView2"
+        android:textColor="@color/darkgreen1"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:text="Computer" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:background="@color/leafgreen"
+        android:textColor="@color/darkgreen1"
+        android:layout_above="@+id/button15"
+        android:layout_alignEnd="@+id/textView2"
+        android:textSize="20dp"
+        android:text="I.T." />
+
+    <Button
+        android:id="@+id/button15"
+        android:textColor="@color/darkgreen1"
+        android:background="@color/leafgreen"
+        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/button13"
+        android:layout_below="@+id/button13"
+        android:layout_marginTop="50dp"
+        android:text="Mechanicl" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="120dp"
+        android:textColor="@color/darkgreen1"
+        android:background="@color/leafgreen"
+        android:layout_height="75dp"
+        android:layout_above="@+id/button17"
+        android:layout_alignStart="@+id/button14"
+        android:textSize="20dp"
+        android:text="EXTC" />
+
+    <Button
+        android:id="@+id/button17"
+        android:background="@color/leafgreen"
+        android:textColor="@color/darkgreen1"
+        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/button15"
+        android:layout_below="@+id/button15"
+        android:layout_marginTop="50dp"
+        android:text="Chemical" />
+
+    <Button
+        android:id="@+id/button18"
+        android:background="@color/leafgreen"
+        android:textColor="@color/darkgreen1"
+        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/button16"
+        android:layout_alignTop="@+id/button17"
+        android:text="Civil" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/blakishBlue"
+        android:drawableLeft="@drawable/ic_action_folder"
+        android:background="@color/leafgreen"
+        android:textSize="30dp"
+        android:text=" Folders" />
+</RelativeLayout>
